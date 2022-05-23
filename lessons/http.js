@@ -17,13 +17,14 @@ app.addRouter(userRouter);
 
 const start = async () => {
     try {
-        await mongoose.connect('mongodb+srv://admin:admin@cluster0.zjj7z.mongodb.net/?retryWrites=true&w=majority');
+        await mongoose.connect('mongodb+srv://admin:<password>@cluster0.zjj7z.mongodb.net/?retryWrites=true&w=majority');
         app.listen(PORT, () => {
             console.log(`Порт запущен на порту ${PORT}`)
         });
     } catch (e) {
         console.log(e);
     }
+
 }
 
 start();
