@@ -1,0 +1,21 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "nodemon lessons/http.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.4",
+    "node-core-lib": "^0.11.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
